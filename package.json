@@ -1,0 +1,18 @@
+{
+  "name": "kafka",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start:producer": "node ./producer/producer.js",
+    "start:consumer": "node ./consumer/consumer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "kafka-node": "^5.0.0"
+  }
+}
